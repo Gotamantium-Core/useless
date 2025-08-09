@@ -25,4 +25,12 @@ public class ButtonBehaviour : MonoBehaviour
             gameObject.SetActive(!gameObject.activeSelf);
         }
     }
+
+    public void ShowThreat(GameObject gameObject)
+    {
+        if (gameObject == null)
+        {
+            gameObject.SetActive(true);
+        }
+    }
 }
