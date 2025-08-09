@@ -28,9 +28,7 @@ public class ButtonBehaviour : MonoBehaviour
 
     public void ShowThreat(GameObject gameObject)
     {
-        if (gameObject == null)
-        {
-            gameObject.SetActive(true);
-        }
+        Debug.Log("Code no sucky wucky");
+        gameObject.SetActive(true);
     }
 }
