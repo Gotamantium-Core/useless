@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PasswordHider
   - Number
+  - Appear1
+  - Appear2
   layers:
   - Default
   - TransparentFX

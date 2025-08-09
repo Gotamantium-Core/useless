@@ -4,10 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class ButtonBehaviour : MonoBehaviour
 {
-    void Start()
-    {
-
-    }
     public void Load(String name)
     {
         SceneManager.LoadScene(name);
@@ -29,6 +25,11 @@ public class ButtonBehaviour : MonoBehaviour
     public void ShowThreat(GameObject gameObject)
     {
         Debug.Log("Code no sucky wucky");
+        gameObject.SetActive(true);
+    }
+
+    public void NextConfirm(GameObject gameObject)
+    {
         gameObject.SetActive(true);
     }
 }
